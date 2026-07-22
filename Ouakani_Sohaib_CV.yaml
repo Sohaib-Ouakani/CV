@@ -1,0 +1,98 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Sohaib Ouakani
+  headline: Computer Science & Engineering Graduate
+  location: "Forlì-Cesena, Italy"
+  email: sohaibouk@gmail.com
+  phone: "+39 3276366128"
+  website:
+  social_networks:
+    - network: GitHub
+      username: Sohaib-Ouakani
+  custom_connections:
+  sections:
+    education:
+      - institution: "Alma Mater Studiorum – Università di Bologna (Cesena Campus)"
+        area: Computer Science and Engineering (Ingegneria e Scienze Informatiche)
+        start_date: 2023-09
+        end_date: 2026-07
+        location: Cesena, Italy
+        summary:
+        highlights:
+          - "Final grade: 110L"
+          - "Thesis: Un linguaggio per domarli tutti: applicazioni full stack con librerie native in Kotlin Multiplatform"
+          - "Advisor: Prof. Danilo Pianini · Co-advisors: Angela Cortecchia, Valter Venusti"
+    projects:
+      - name: "[Korsa](https://github.com/Sohaib-Ouakani/korsa)"
+        start_date: 2026-05
+        end_date: 2026-06
+        summary: University group project (3 people). Social running-tracker Android app, backed by a Supabase backend
+        highlights:
+          - "Built GPS run tracking as a foreground Android service (Fused Location Provider, GeoJSON routes rendered on an interactive MapLibre map)"
+          - "Implemented a social feed with likes, comments, following, and shareable deep links, using Supabase Realtime for instant updates"
+          - "MVVM architecture, with Koin DI, Jetpack Compose and Navigation Compose"
+      - name: "[FMI Workbench](https://github.com/Sohaib-Ouakani/FMI-Workbench)"
+        date:
+        start_date: 2026-03
+        end_date: 2026-06
+        location:
+        summary: Full-stack Kotlin Multiplatform simulator for FMU (Functional Mock-up Unit) models
+        highlights:
+          - "First project in Kotlin, eventually became the thesis work"
+          - "Bound Kotlin/Native directly to the native FMILib C library via cinterop, with no glue code in another language across the stack"
+          - "Built a Ktor REST API (upload, info, simulate) consumed by a Compose Multiplatform frontend rendering results as line charts, with CI via GitHub Actions across Linux, macOS, and Windows"
+      - name: "[IoT Coursework](https://github.com/Salinatore/IoT-assignements)"
+        date:
+        start_date: 2025-12
+        end_date: 2026-01
+        location:
+        summary: "University group project (4 people) for the Embedded Systems and IoT course: an Arduino game, an FSM-based drone hangar, and a 4-subsystem distributed system (MQTT, serial, HTTP) monitoring cistern water level and drainage control"
+        highlights:
+          - "Built the game loop: sequence generation, input capture, difficulty potentiometer, LCD output, and win/lose state handling"
+          - "Implemented the drone hangar's core finite-state machine (flight/landing/hangar-door logic) on Arduino Uno, plus the sensor layer integrating ultrasonic, PIR, and LCD modules"
+          - "Built the Arduino-based drainage-control subsystem (state logic, messaging, logging) and the ESP32 hardware task for the tank-monitoring subsystem"
+          - "Developed part of the Python central control unit bridging serial and WebSocket communication, and the real-time JS dashboard rendering live water-level graphs"
+    skills:
+      - label: Programming Languages
+        details: Kotlin, Java, Python, C++, SQL, JavaScript, Rust
+      - label: Mobile & UI
+        details: Jetpack Compose, Compose Multiplatform
+      - label: Backend & Data
+        details: Ktor, REST APIs, Supabase (Auth, Postgrest, Realtime, Storage)
+      - label: Systems & Tools
+        details: Kotlin/Native cinterop, CMake, Gradle, Docker, Git, GitHub Actions (CI/CD)
+      - label: Testing
+        details: Kotest, Junit
+      - label: Languages
+        details: Italian (Native), English (Fluent), Arabic (Native, Moroccan Arabic)
+design:
+  theme: classic
+  page:
+    top_margin: 0.6in
+    bottom_margin: 0.6in
+    left_margin: 0.6in
+    right_margin: 0.6in
+  typography:
+    line_spacing: 0.5em
+  sections:
+    space_between_regular_entries: 1em
+locale:
+  language: english
+settings:
+  current_date: today
+  render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
+  pdf_title: Sohaib Ouakani - CV
