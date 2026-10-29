@@ -20,7 +20,7 @@ cv:
         summary:
         highlights:
           - "Final grade: 110L"
-          - "Thesis: Un linguaggio per domarli tutti: applicazioni full stack con librerie native in Kotlin Multiplatform"
+          - "[Thesis](https://amslaurea.unibo.it/id/eprint/39319/1/Un%20linguaggio%20per%20domarli%20tutti%20applicazioni%20full%20stack%20con%20librerie%20native%20in%20Kotlin%20Multiplatform.pdf): \"Un linguaggio per domarli tutti: applicazioni full stack con librerie native in Kotlin Multiplatform\""
           - "Advisor: Prof. Danilo Pianini · Co-advisors: Angela Cortecchia, Valter Venusti"
     projects:
       - name: "[Korsa](https://github.com/Sohaib-Ouakani/korsa)"

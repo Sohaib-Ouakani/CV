@@ -6,7 +6,7 @@
   name: "Sohaib Ouakani",
   title: "Sohaib Ouakani - CV",
   footer: context { [#emph[Sohaib Ouakani -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in July 2026] ],
+  top-note: [ #emph[Last updated in Oct 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 7,
-    day: 22,
+    month: 10,
+    day: 29,
   ),
 )
 
@@ -106,7 +106,7 @@
 
     - Final grade: 110L
 
-    - Thesis: Un linguaggio per domarli tutti: applicazioni full stack con librerie native in Kotlin Multiplatform
+    - #link("https://amslaurea.unibo.it/id/eprint/39319/1/Un%20linguaggio%20per%20domarli%20tutti%20applicazioni%20full%20stack%20con%20librerie%20native%20in%20Kotlin%20Multiplatform.pdf")[Thesis]: \"Un linguaggio per domarli tutti: applicazioni full stack con librerie native in Kotlin Multiplatform\"
 
     - Advisor: Prof. Danilo Pianini · Co-advisors: Angela Cortecchia, Valter Venusti
 
